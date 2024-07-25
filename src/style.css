@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+
+--very-dark-blue: hsl(233, 47%, 7%);
+--dark-desaturated-blue: hsl(244, 38%, 16%);
+--soft-violet: hsl(277, 64%, 61%);
+
+--white: hsl(0, 0%, 100%);
+--slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+*{
+    font-family: 'Inter';
+}
+.wrapper{
+    background-color: var(--very-dark-blue);
+}
+.myMain{
+    height: 60vh;
+    background-color: var(--dark-desaturated-blue);
+}
+.highlight{
+    color: var(--soft-violet);
+}
+.myOver{
+    background-color: var(--soft-violet);
+    /* filter: brightness(.75); */
+}
+.wCol{
+    color: var(--white);
+}
+.gCol{
+    color: var(--slightly-transparent-white)
+}
